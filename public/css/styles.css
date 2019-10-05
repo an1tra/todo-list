@@ -1,0 +1,12 @@
+body {
+    background-color: yellow;
+}
+
+#list {
+    border: 1px solid red;
+}
+
+.listItem {
+    list-style-type: square;
+}
+

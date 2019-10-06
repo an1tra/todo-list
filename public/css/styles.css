@@ -1,12 +1,89 @@
-body {
-    background-color: yellow;
+header {
+    background-color: red;
+    color: white;
+    margin: 5px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 25px;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+input[type="text"] {
+    border: none;
 }
 
 #list {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 10px auto;
 }
 
-.listItem {
-    list-style-type: square;
+#input {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
+.box {
+    max-width: 50%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    padding: 0;
+    margin: 5px;
+}
+
+.item {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 1%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.delete {
+    margin-top: 2%;
+    height: auto;
+}
+
+.addButton, .deleteButton, .completeButton {
+    border: none;
+    background: transparent;
+}
+
+.deleteButton {
+    float: right;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 1;
+}
